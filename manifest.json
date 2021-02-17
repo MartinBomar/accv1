@@ -1,0 +1,49 @@
+{
+  "name": "accv1",
+  "version": "0.1.0",
+  "size": {
+    "width": 5,
+    "height": 3
+  },
+  "collections": [
+    {
+      "name": "accv1",
+      "schema": {
+        "columns": [
+          {
+            "name": "Org",
+            "type": "STRING"
+          },
+          {
+            "name": "Date",
+            "type": "DATE"
+          },
+          {
+            "name": "Area",
+            "type": "STRING"
+          },
+          {
+            "name": "Type",
+            "type": "STRING"
+          }
+        ]
+      },
+      "syncEnabled": true
+    }
+  ],
+  "mapping": [
+    {
+      "dataSetId": "91d5f763-ed54-4f46-8294-abf7f98122f9",
+      "alias": "orgnames",
+      "fields": []
+    },
+    {
+      "dataSetId": "9c7a7140-0950-417e-9287-2736fa7ebd75",
+      "alias": "accdata",
+      "fields": []
+    }
+  ],
+  "fileName": "manifest.json",
+  "proxyId": "ef95e85f-f760-4695-a40d-058874630fe0",
+  "id": "9e8719b1-48fa-4b22-9248-496ee0301390"
+}
