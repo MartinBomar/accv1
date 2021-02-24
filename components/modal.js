@@ -167,6 +167,11 @@ ModalAttribute.prototype = {
     input.setAttribute('value', this.value);
     input.setAttribute('name', this.name);
     input.setAttribute('id', this.name);
+    console.log(this.name)
+    //Added by Martin Bolaños ===== 02/24/2021
+    if ((this.name) == 'Date'){
+      input.setAttribute('type', 'date');
+    }
 
     if (checkIfFile(this.value)) {
       input.setAttribute('type', 'hidden');
